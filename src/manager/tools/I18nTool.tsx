@@ -4,7 +4,7 @@ import { useParameter, useAddonState, useChannel } from '@storybook/api'
 import { Icons, IconButton, TooltipLinkList, WithTooltip } from '@storybook/components'
 import { I18nAddonParameter } from '../../types/I18nAddonParameter'
 import { I18nAddonState } from '../../types/I18nAddonState'
-import { ADDON_ID, PARAMETER_ID, LOCALE_CHANGED } from '../../shared'
+import { ADDON_ID, PARAMETER_ID, EVENT_LOCALE_CHANGED } from '../../shared'
 
 const IconButtonWithLabel = styled(IconButton)(() => ({
   display: 'inline-flex',
@@ -46,7 +46,7 @@ const I18nTool = () => {
         active: active,
         right: active ? <Icons icon="check"/> : undefined,
         onClick: () => {
-          emit(LOCALE_CHANGED, ele.code)
+          emit(EVENT_LOCALE_CHANGED, ele.code)
           setState({ ...state, selected: ele.code })
           close()
         }
