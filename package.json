@@ -1,7 +1,7 @@
 {
-  "name": "@kadira/storybook-addon-hello",
-  "version": "1.0.5",
-  "description": "Hello World addon for storybook",
+  "name": "@vickad/storybook-addon-vue-i18n",
+  "version": "1.0.0",
+  "description": "i18n addon for storybook",
   "main": "preview.js",
   "scripts": {
     "prepublish": "BABEL_ENV=production node .scripts/npm-prepublish.js",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kadirahq/storybook-addon-hello.git"
+    "url": "git+https://github.com/VicKad/storybook-addon-vue-i18n.git"
   },
   "keywords": [
     "storybook"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kadirahq/storybook-addon-hello/issues"
+    "url": "https://github.com/VicKad/storybook-addon-vue-i18n.git/issues"
   },
-  "homepage": "https://github.com/kadirahq/storybook-addon-hello#readme",
+  "homepage": "https://github.com/VicKad/storybook-addon-vue-i18n.git#readme",
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
