@@ -1,0 +1,1 @@
+# storybook-addon-vue-i18n
