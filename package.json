@@ -1,0 +1,42 @@
+{
+  "name": "@kadira/storybook-addon-hello",
+  "version": "1.0.5",
+  "description": "Hello World addon for storybook",
+  "main": "preview.js",
+  "scripts": {
+    "prepublish": "BABEL_ENV=production node .scripts/npm-prepublish.js",
+    "storybook": "start-storybook -p 9001",
+    "test": "jest --coverage --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadirahq/storybook-addon-hello.git"
+  },
+  "keywords": [
+    "storybook"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadirahq/storybook-addon-hello/issues"
+  },
+  "homepage": "https://github.com/kadirahq/storybook-addon-hello#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-typescript": "^7.6.0",
+    "babel-jest": "^15.0.0",
+    "babel-preset-react-app": "^9.0.2",
+    "jest": "^16.0.0",
+    "shelljs": "^0.7.4"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+    "@storybook/addons": "^5.2.1",
+    "@storybook/api": "^5.2.1",
+    "@storybook/components": "^5.2.1",
+    "@storybook/theming": "^5.2.1",
+    "typescript": "^3.6.3"
+  }
+}
