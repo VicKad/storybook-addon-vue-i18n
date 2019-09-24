@@ -1,5 +1,9 @@
 ## Changelog
 
+### 1.0.3
+
+* Changed main file to index.js
+
 ### 1.0.2
 
 * Exported event id in index.js
