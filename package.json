@@ -1,6 +1,6 @@
 {
   "name": "@vickad/storybook-addon-vue-i18n",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "i18n addon for storybook",
   "main": "preview.js",
   "scripts": {
