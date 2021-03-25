@@ -13,7 +13,8 @@
     "url": "git+https://github.com/VicKad/storybook-addon-vue-i18n.git"
   },
   "keywords": [
-    "storybook"
+    "storybook",
+    "storybook-addon"
   ],
   "license": "MIT",
   "bugs": {
